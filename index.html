@@ -44,13 +44,13 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#education">Education</a>
@@ -72,7 +72,8 @@
           <div class="subheading mb-5">Brooklyn, New York · (845) 637-0635 ·
             <a href="mailto:jsanter.dev@gmail.com">jsanter.dev@gmail.com</a>
           </div>
-          <p class="mb-5">I am just like Spider-Man, but instead of having spider-themed superpowers, I know how to invert a binary search tree. Besides that, I am an open source enthusiast with a history of leveraging current best practices and technologies to modernize traditional enterprises.</p>
+          <p class="mb-5">Early-career software engineer with experience in sharing projects to the world at tech conferences such as SHARE. Maintainer of a Linux
+Foundation open-source project.</p>
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
               <a href="https://www.linkedin.com/in/justin-santer/" target="_blank">
@@ -102,11 +103,81 @@
         </div>
       </section>
 
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Experience</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Application Developer</h3>
+              <div class="subheading mb-3">Converge Technology Solutions - Vicom Infinity Division</div>
+              <ul>
+                <li>Write back-end Node.js code that collects and exposes IBM mainframe performance metrics through a REST API for use in 2-3 internal analysis tools.</li>
+                <li>Design and maintain 4 front-end pages that consume data from aforementioned REST API using React.js framework.</li>
+                <li>Present open-source and proprietary projects as solutions at industry conferences, with 30-60 enterprise consumers attending each presentation.</li>
+                <li>Lead weekly agile development sprints of secure enterprise voice assistant prototype implementing IBM Watson Assistant, Speech-to-Text and Text-to-Speech.</li>
+                <li>Maintain legacy time sheet application with 5-10 bug fixes per month using PHP and MySQL.</li>
+              </ul>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">June 2021 - Present</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Full Stack Developer</h3>
+              <div class="subheading mb-3">Freelance - Desir Fitness</div>
+              <ul>
+                <li>Created the company's commercial website capable of delivering online workout routines and nutrition advice to over 50 customers through a monthly paid subscription via the Stripe developer API.</li>
+                <li>Developed back-end business logic with Express.js framework and MongoDB as the database.</li>
+                <li>Designed and created over 8 front-end page views utilizing the React.js framework.</li>
+              </ul>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">April 2020 - June 2021</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Front End Developer</h3>
+              <div class="subheading mb-3">Freelance - Fitness Academy Hudson Valley</div>
+              <ul>
+                <li>Developed static website with around 5 pages to deliver company information to customers.</li>
+                <li>Utilized Sass as a CSS compiler to easily drive updates to website's color theme.</li>
+                <li>Created CI/CD pipeline that builds React.js front-end into static HTML/Javascript/CSS and pushes the result to an Amazon S3 bucket within 1-2 minutes.</li>
+              </ul>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">April 2020 - September 2020</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Software Developer Intern</h3>
+              <div class="subheading mb-3">F.W. Webb Company</div>
+              <ul>
+                <li>Deployed 2-3 internal software updates per week with batch scripts.</li>
+                <li>Fixed 5-10 bugs in legacy code bases written in Visual Basic.</li>
+                <li>Managed 3-5 support tickets per day fixing company inventory device freezes through SSH and Unix commands.</li>
+              </ul>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">June 2019 - August 2019</span>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
         <div class="my-auto">
           <h2 class="mb-5">Projects</h2>
           <div class="card-deck mb-3">
-            <div class="card">
+            <div class="card" style="max-width: 300px;">
               <img class="card-img-top" src="img/zebra-logo.jpg" alt="The Open Mainframe Project's Zowe logo">
               <div class="card-body">
                 <ul class="list-inline list-icons text-center">
@@ -135,105 +206,6 @@
                       <span class="fa-stack fa-lg">
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-play fa-stack-1x fa-inverse"></i>
-                      </span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="img/desir-logo.jpg" alt="Desir Fitness logo">
-              <div class="card-body">
-                <ul class="list-inline list-icons text-center">
-                  <li class="list-inline-item">
-                    <i class="devicon-mongodb-plain" data-toggle="tooltip" data-placement="top" title="MongoDB"></i>
-                  </li>
-                  <li class="list-inline-item">
-                    <i class="devicon-react-original" data-toggle="tooltip" data-placement="top" title="React.js"></i>
-                  </li>
-                  <li class="list-inline-item">
-                    <i class="devicon-nodejs-plain" data-toggle="tooltip" data-placement="top" title="Node.js"></i>
-                  </li>
-                  <li class="list-inline-item">
-                    <i class="devicon-amazonwebservices-original" data-toggle="tooltip" data-placement="top" title="AWS"></i>
-                  </li>
-                </ul>
-                <h5 class="card-title">Desir Fitness Website</h5>
-                <p class="card-text">Small business website. Migrated from Santer Fitness after ownership change. Not only is there a fresh coat of paint, there are new features: Virtual workouts, nutrition tips, and more via subscription using Stripe.</p>
-              </div>
-              <div class="card-footer">
-                <ul class="list-inline list-social-icons text-center mb-0">
-                  <li class="list-inline-item">
-                    <a href="https://desirfitness.com" target="_blank">
-                      <span class="fa-stack fa-lg">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-play fa-stack-1x fa-inverse"></i>
-                      </span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="img/fa-logo.jpg" alt="Fitness Academy Hudson Valley logo">
-              <div class="card-body">
-                <ul class="list-inline list-icons text-center">
-                  <li class="list-inline-item">
-                    <i class="devicon-react-original" data-toggle="tooltip" data-placement="top" title="React.js"></i>
-                  </li>
-                  <li class="list-inline-item">
-                    <i class="devicon-sass-original" data-toggle="tooltip" data-placement="top" title="Sass"></i>
-                  </li>
-                  <li class="list-inline-item">
-                    <i class="devicon-nodejs-plain" data-toggle="tooltip" data-placement="top" title="Node.js"></i>
-                  </li>
-                  <li class="list-inline-item">
-                    <i class="devicon-amazonwebservices-original" data-toggle="tooltip" data-placement="top" title="AWS"></i>
-                  </li>
-                </ul>
-                <h5 class="card-title">Fitness Academy Hudson Valley Website</h5>
-                <p class="card-text">Small business website. Informational with forms to sign up for free trial and bootcamps. Utilizes AWS Simple Email Service to notify owner when form is filled out.</p>
-              </div>
-              <div class="card-footer">
-                <ul class="list-inline list-social-icons text-center mb-0">
-                  <li class="list-inline-item">
-                    <a href="https://thefitnessacademyhv.com" target="_blank">
-                      <span class="fa-stack fa-lg">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-play fa-stack-1x fa-inverse"></i>
-                      </span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="img/santer-logo.jpg" alt="Santer Fitness logo">
-              <div class="card-body">
-                <ul class="list-inline list-icons text-center">
-                  <li class="list-inline-item">
-                    <i class="devicon-mongodb-plain" data-toggle="tooltip" data-placement="top" title="MongoDB"></i>
-                  </li>
-                  <li class="list-inline-item">
-                    <i class="devicon-react-original" data-toggle="tooltip" data-placement="top" title="React.js"></i>
-                  </li>
-                  <li class="list-inline-item">
-                    <i class="devicon-nodejs-plain" data-toggle="tooltip" data-placement="top" title="Node.js"></i>
-                  </li>
-                  <li class="list-inline-item">
-                    <i class="devicon-graphql-plain" data-toggle="tooltip" data-placement="top" title="GraphQL"></i>
-                  </li>
-                </ul>
-                <h5 class="card-title">Santer Fitness Website</h5>
-                <p class="card-text">Small business website. First full stack project using MERN stack. Includes admin dashboard to upload new images and alerts.</p>
-              </div>
-              <div class="card-footer">
-                <ul class="list-inline list-social-icons text-center mb-0">
-                  <li class="list-inline-item">
-                    <a href="https://github.com/jsanter27/santer-fitness" target="_blank">
-                      <span class="fa-stack fa-lg">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-code fa-stack-1x fa-inverse"></i>
                       </span>
                     </a>
                   </li>
@@ -357,47 +329,6 @@
               Agile Development &amp; Scrum</li>
           </ul>
         </div>
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-        <div class="my-auto">
-          <h2 class="mb-5">Experience</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Application Developer</h3>
-              <div class="subheading mb-3">Converge Technology Solutions - Vicom Infinity Team</div>
-              <p>Integrate open-source software projects (ex. ZEBRA) into team&apos;s performance analysis application and secure enterprise voice assistant device daily. Design voice assistant device and meet with software consulting company for weekly sprints. Maintain and refactor the timesheet application (LAMP stack) used by over 50 internal and external consultants to adapt to new invoicing system.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">June 2021 - Present</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Teaching Assistant</h3>
-              <div class="subheading mb-3">Stony Brook University - Applied Calculus III</div>
-              <p>Tutored 15-20 students per week in one-on-one office hours. Graded over 100 homework submissions weekly and proctored exams monthly</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">August 2019 - December 2019</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">IT &amp; Software Development Intern</h3>
-              <div class="subheading mb-3">FW Webb - IT Department</div>
-              <p>Deployed company application updates weekly using batch scripting. Debugged the company system written in Java and BASIC regularly to fix minor bugs.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">June 2019 - August 2019</span>
-            </div>
-          </div>
-
-        </div>
-
       </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
