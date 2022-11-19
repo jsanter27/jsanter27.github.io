@@ -49,6 +49,10 @@ h2 {
   .list-icons .list-inline-item i:hover {
     color: #6f42c1; }
 
+@media (min-width: 768px) {
+  .w-md-75 {
+    width: 75%; } }
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
   text-transform: uppercase; }
