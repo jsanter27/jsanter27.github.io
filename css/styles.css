@@ -579,7 +579,7 @@ strong { color: var(--text); font-weight: 600; }
 
 .timeline-marker {
   position: absolute;
-  left: -3rem;
+  left: calc(-2.5rem - 6px);
   top: 1.75rem;
   width: 14px; height: 14px;
   border-radius: 50%;
@@ -915,7 +915,7 @@ footer {
   .about-stats { grid-template-columns: 1fr 1fr; }
 
   .timeline { padding-left: 1.75rem; }
-  .timeline-marker { left: -2.35rem; }
+  .timeline-marker { left: calc(-1.75rem - 6px); }
 
   .job-header { flex-direction: column; gap: 0.5rem; }
   .job-meta { align-items: flex-start; }
